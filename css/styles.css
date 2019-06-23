@@ -1,0 +1,168 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+p {
+    color: grey;
+}
+
+.big-heading {
+    font-size: 3rem;
+    color: white;
+    font-weight: 750;
+}
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.brand-logo {
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: "Ubuntu";
+}
+
+.container-fluid {
+    padding: 5% 15%;
+}
+
+.navbar {
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-size: 1rem;
+}
+
+.download-btns{
+    padding-top: 20px;
+}
+
+.download-btn{
+    margin-right: 8px;
+}
+
+.phone-img {
+    -ms-transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    width: 60%;
+    margin-left: 10%;
+    margin-top: -10%;
+    padding-top: 5%;
+}
+
+#features {
+    background-color: #fff;
+    margin-top: -13%;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feaure-box {
+    padding: 5% 3% 5% 3%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon :hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding-top: 2%;
+}
+
+.price-text {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.pricing-column{
+    padding: 2% 3%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#footer {
+    background: #fff;
+}
+
+.footer-icon {
+    margin: 4px;
+    color: black;
+}
+
+.footer-icon:hover {
+    color: #ff4c68;
+}
+
+@media (max-width: 1120px) and (min-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .phone-img {
+        margin-top: -3%;
+        width: 70%;
+    }
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+    .phone-img {
+        transform: rotate(0);
+        margin-top: -2%;
+        width: 75%;
+    }
+    #features {
+        margin-top: 0;
+    }
+}
